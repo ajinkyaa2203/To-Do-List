@@ -26,7 +26,7 @@ Task-2 of my internship under InternPe: Making a To-Do List model.
 
 ## 📱 Demo
 
-Give it a try and see how it can help you stay on top of your tasks! 🚀👉 [Live Demo](#) (https://ajinkya2217.github.io/To-Do-List/)
+Give it a try and see how it can help you stay on top of your tasks! 🚀👉 [Live Demo](https://ajinkya2217.github.io/To-Do-List/)
 
 ## 🚀 Installation
 
