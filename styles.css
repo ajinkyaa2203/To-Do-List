@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #9288F8;
+}
+
+#todoList {
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #FFD2D7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#todoList h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.taskItem {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    animation: fadeIn 0.5s ease;
+  }
+
+.taskItem.completed .taskText {
+  text-decoration: line-through;
+  color: #99999997;
+}
+
+.taskItem .taskText {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.taskItem .markCompletedButton {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.taskItem .deleteButton {
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#taskCount {
+  color: #322653;
+}
+
+#clearCompletedButton {
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
